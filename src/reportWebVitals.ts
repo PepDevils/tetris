@@ -1,4 +1,5 @@
 type Perf = null | any;
+// verify report web vitals type defenition
 
 const reportWebVitals = (onPerfEntry: Perf) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
