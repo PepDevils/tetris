@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.scss';
 
-import logo from './../../assets/svg/logo.svg'
+import {Board} from '../index';
+
+// import logo from './../../assets/svg/logo.svg'
 // const logo = require('./../../assets/svg/logo.svg') as string;
 // const logo = require("./logo.svg") as string;
 
@@ -14,7 +16,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <Board />
+
+
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
@@ -27,7 +32,9 @@ class App extends Component {
           >
             Learn React
           </a>
-        </header>
+        </header> */}
+
+
       </div>
     );
   }
